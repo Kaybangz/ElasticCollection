@@ -6,7 +6,8 @@ namespace ElasticCollectionExe
     {
         static void Main(string[] args)
         {
-            ElasticCollection.GetProductItems(); 
+            //FetchProductsDLL.GetAllProductItems();
+            FetchProductsDLL.GetSpecificProductProperties(); 
         }
     }
 }

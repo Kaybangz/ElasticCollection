@@ -41,26 +41,5 @@ namespace ElasticCollectionLibrary
 
             return Products;
         }
-
-
-        public static void GetProductItems()
-        {
-            foreach (var item in AddProductItems())
-            {
-                Console.WriteLine(item.Name);
-            }
-        }
-
-        public static void DeleteProductItems(string[] propertiesToDisplay)
-        {
-            propertiesToDisplay[0] = "Name";
-            propertiesToDisplay[1] = "Quantity";
-            propertiesToDisplay[2] = "Price";
-
-            if (propertiesToDisplay.Contains("Name"))
-            {
-
-            }
-        }
     }
 }
